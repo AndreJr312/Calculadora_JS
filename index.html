@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="calculadora">
+        <h3>Calculadora | André Luis</h3>
+        <div id="operacao"></div>
+        <div id="botoes">
+            <button onclick="clean()">CE</button>
+            <button onclick="apagar()">C</button>
+            <button onclick="apagar()">DEL</button>
+            <button onclick="operacao('/')">/</button>
+            <button onclick="insert('7')" class="botao_numeros">7</button>
+            <button onclick="insert('8')" class="botao_numeros">8</button>
+            <button onclick="insert('9')" class="botao_numeros">9</button>
+            <button onclick="operacao('*')">X</button>
+            <button onclick="insert('4')" class="botao_numeros">4</button>
+            <button onclick="insert('5')" class="botao_numeros">5</button>
+            <button onclick="insert('6')" class="botao_numeros">6</button>
+            <button onclick="operacao('-')">-</button>
+            <button onclick="insert('1')" class="botao_numeros">1</button>
+            <button onclick="insert('2')" class="botao_numeros">2</button>
+            <button onclick="insert('3')" class="botao_numeros">3</button>
+            <button onclick="operacao('+')">+</button>
+            <button onclick="insert('0')" class="botao_numeros">0</button>
+            <button onclick="insert('.')" class="botao_numeros">.</button>
+            <button onclick="calcular()" id="botao_igual">=</button>
+        </div>
+</body>
+
+</html>
